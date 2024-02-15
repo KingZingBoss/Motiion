@@ -10,7 +10,6 @@
     position: absolute;
     text-align: center;
     background: white;
-    border-radius: 30px;
     border: 0.5px solid black;
     box-shadow: 5px 5px 5px 5px black;
     padding: 10px;
@@ -26,14 +25,15 @@
 .context-menu ul li {
     padding-bottom: 7px;
     padding-top: 7px;
-    border-radius: 30px;
 }
 
 .context-menu ul li a {
     text-decoration: none;
     color: mediumseagreen;
 }
-
+.context-menu ul li a:hover {
+    color: #fff;
+}
 .context-menu ul li:hover {
     background: rgb(40, 136, 83);
 }
