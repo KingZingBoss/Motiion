@@ -9,8 +9,7 @@
 .context-menu { 
     position: absolute; 
     text-align: center; 
-    background: mediumseagreen; 
-    border: 1px solid black; 
+    background: white; 
     border-radius: 30px;
 } 
 
@@ -28,7 +27,7 @@
 
 .context-menu ul li a { 
     text-decoration: none; 
-    color: black; 
+    color: mediumseagreen; 
 } 
 
 .context-menu ul li:hover { 
