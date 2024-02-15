@@ -23,6 +23,7 @@
 .context-menu ul li { 
     padding-bottom: 7px; 
     padding-top: 7px; 
+    border-radius: 30px;
 } 
 
 .context-menu ul li a { 
