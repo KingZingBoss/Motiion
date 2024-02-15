@@ -5,7 +5,9 @@
 * {
     font-family: "Clash Display";
 }
-
+body{
+    margin: 0;
+}
 .context-menu {
     position: absolute;
     text-align: center;
