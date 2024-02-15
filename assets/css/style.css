@@ -43,7 +43,7 @@ body{
 .icon-bar {
     width: 100%;
     overflow: auto;
-    margin: 8px;
+    margin: 16px;
 }
 
 .icon-bar a {
