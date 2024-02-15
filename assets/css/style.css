@@ -13,6 +13,7 @@
     border-radius: 30px;
     border: 0.5px solid black;
     box-shadow: 5px 5px 5px 5px black;
+    padding: 10px;
 } 
 
 .context-menu ul { 
