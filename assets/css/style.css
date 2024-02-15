@@ -41,6 +41,7 @@
 .icon-bar {
     width: 100%;
     overflow: auto;
+    margin: 8px;
 }
 
 .icon-bar a {
