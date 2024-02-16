@@ -7,6 +7,7 @@
 }
 body{
     margin: 0;
+    color: aquamarine;
 }
 .context-menu {
     position: absolute;
@@ -39,32 +40,55 @@ body{
 .context-menu ul li:hover {
     background: rgb(40, 136, 83);
 }
-
-.icon-bar {
-    width: 100%;
-    overflow: auto;
-    margin: 16px;
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
 }
 
-.icon-bar a {
-    float: left;
-    width: 25%;
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: mediumseagreen;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(40, 136, 83);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: none;
+    border: 1px solid;
+
+
+    border-color: mediumseagreen;
+    padding: 16px;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: mediumseagreen;
     text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: black;
-    font-size: 36px;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.icon-bar a:hover {
-    background-color: #04aa6d;
-    color: #fff;
+.topnav a:hover {
+    background-color: mediumseagreen;
+    color: #f5f2eb;
 }
 
-.active {
-    background-color: #04AA6D;
+.topnav a.active {
+    float: left;
 }
 
-.icon-bar a.active {
-    color: #fff;
+.topnav .icon {
+    display: none;
 }
