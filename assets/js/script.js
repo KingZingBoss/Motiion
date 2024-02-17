@@ -20,4 +20,12 @@ function rightClick(e) {
         menu.style.left = e.pageX + "px";
         menu.style.top = e.pageY + "px";
     }
-} 
+}
+function myFunction() {
+    var x = document.getElementById("myTopnava");
+    if (x.className === "topnava") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnava";
+    }
+}
