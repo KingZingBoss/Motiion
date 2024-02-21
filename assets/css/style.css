@@ -91,7 +91,7 @@ body {
     color: black;
 }
 
-.topnav a.active {
+.topnav a.active.home {
     color: #04AA6D;
 }
 
