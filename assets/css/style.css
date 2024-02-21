@@ -95,7 +95,7 @@ body {
     color: #04AA6D;
 }
 .home{
-    color: #04AA6D;
+    color: #04AA6D !important;
 }
 .topnav .icon {
     display: none;
