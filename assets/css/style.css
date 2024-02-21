@@ -8,8 +8,13 @@
     font-family: "JUST Sans";
 }
 
+body.homepage {
+    margin: 0;
+    overflow: hidden;
+}
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 .context-menu {
