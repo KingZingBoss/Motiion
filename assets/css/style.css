@@ -91,10 +91,12 @@ body {
     color: black;
 }
 
-.topnav a.active.home {
+.topnav a.active {
     color: #04AA6D;
 }
-
+.home{
+    color: #04AA6D;
+}
 .topnav .icon {
     display: none;
 }
