@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #small{
+            font-size: 12px;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        My name is <span id="small">Ayomide Deji-Adeyale</span>
+    </p>
+    <button onclick="myFunction()">
+        Click me to see my name properly
+    </button>
+    <script>
+        function myFunction(){
+            document.getElementById("small").style.textTransform = "uppercase";document.getElementById("small").style.fontSize = "90px";
+        }
+    </script>
+</body>
+
+</html>
