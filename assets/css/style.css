@@ -11,7 +11,11 @@
 body.homepage {
     margin: 0;
     overflow: hidden;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../images/lala.jpg);
 }
+
 body {
     margin: 0;
     overflow: hidden;
@@ -94,9 +98,11 @@ body {
 .topnav a.active {
     color: #04AA6D;
 }
-.home{
+
+.home {
     color: #04AA6D !important;
 }
+
 .topnav .icon {
     display: none;
 }
